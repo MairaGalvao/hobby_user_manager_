@@ -1,0 +1,51 @@
+#users {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  #users td, #users th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #users tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #users tr:hover {background-color: #ddd;}
+  
+  #users th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #3d18e5;
+    color: white;
+  }
+
+
+.title{
+  font-size: 2em;
+  padding: 5px;
+  color: green;
+  letter-spacing: 5px;
+
+  font-weight: bold;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.btn{
+  width: 15%;
+ 
+  background: dodgerblue;
+  color: #fff;
+  border: #fff;
+  margin: 10px;
+  cursor: pointer;
+
+  background-color: white;
+  color: black;
+  border: 3px solid #4CAF50; /* Green */
+  text-transform: uppercase;
+
+}
+
