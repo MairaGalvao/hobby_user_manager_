@@ -3,6 +3,7 @@ const PORT = process.env.PORT || 3001;
 const app = express();
 const cors = require("cors");
 var bodyParser = require("body-parser");
+
 const corsOptions = {
 	origin: "*",
 	credentials: true,
@@ -10,9 +11,7 @@ const corsOptions = {
 };
 
 app.use(cors(corsOptions));
-
 var jsonParser = bodyParser.json();
-var urlencodedParser = bodyParser.urlencoded({ extended: false });
 
 let lastId = 4;
 let USERS_DB = [
